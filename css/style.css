@@ -1,0 +1,39 @@
+@font-face {
+    font-family: pageFont;
+    src: url(../font/Champagne & Limousines.ttf);
+}
+
+
+
+.container{
+    background-color: aliceblue;
+    background:linear-gradient(to bottom, #f0f8ff, #fff7f0);
+    box-shadow: 1px 0px 5px #000;
+    font-family: pageFont; 
+}
+
+.ulTextSize{
+    font-size: 19px;
+}
+.endFontStyle{
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+.footStyle{
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 6px;
+}
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul li:nth-child(2n+1) {
+    background-color: #edf7f0;
+}
